@@ -193,7 +193,7 @@ margin-right: 1920px;
 .box .sub-title .concept h3::before{
 content: ""; 
 display: inline-block;
- transform: translate(-7px, -7px); 
+transform: translate(-7px, -7px); 
 width: 7px; height: 2px; 
 background-color: black;
 }
@@ -372,7 +372,7 @@ font-weight: 550;
 }
 .box3  p{
     color: #2d2f43 !important;
-    }
+}
     .box3 .title{
         color: #2d2f43;
     }
