@@ -1,0 +1,141 @@
+* {position: relative; padding: 0; margin: 0;}
+ol, ul, li {list-style: none;}
+a{text-decoration: none;}
+img{display: block;}
+section, header, footer, div, article {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-transform: uppercase;
+}
+.section-title{
+	font-size:45px;
+	font-weight:200;
+	text-align:center;
+	margin-bottom:36px;
+}
+header{
+width: 100%;
+height: 90px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent);
+position: fixed;
+top: 0;
+left: 0;
+z-index: 10;
+text-transform: uppercase;
+}
+header a{
+display:flex; 
+align-items:center;
+height: 90px;
+text-decoration: none;
+color: white;
+}
+header .logo{
+}
+header .logo img{
+width:130px;
+height: 90px;
+position:absolute;
+top:-2px;
+left:0px;
+}
+header .logo .dark{display:none;}
+header .icon-group{
+position:absolute;right:20px;top:0;
+display:flex;
+}
+header .icon-group i{
+font-size:16px;width:32px;
+}
+.gnb{margin-bottom: 0px !important;
+display: flex; padding-bottom: 0px !important;
+}
+.gnb li{
+padding:0 20px;
+}
+
+.product .item .wrap{background-color:#faf9f5 ;}
+.product .item{
+}
+.item img{width:100%;}
+
+.item .wrap h6{
+	color: #999999;
+}
+.item .wrap h4{
+	color: #333333;
+}
+.item .wrap p{
+	color: #888888;
+}
+.page-title{
+    width:100%;
+	background-image:url(siglo_img/shop_bg.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-size:60px;line-height:100px;
+	padding-top:200px;padding-bottom:200px;
+	text-align:center;
+	color:white;
+	letter-spacing:5px;font-weight:400;
+    color: #fff;
+}
+.page-title h1{
+    font-size: 75px;
+    font-weight: 300;
+    letter-spacing: 7px;
+}
+.page-title p{
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 12px;
+}
+.page-title .btn{
+    border-bottom: 1px solid white;
+}
+.item{
+	cursor: pointer;
+}
+.page-section1{padding-top:100px;padding-bottom:100px;}
+.item-a{text-align:right}
+.product .item{text-align:center;margin-bottom:20px;}
+
+footer{
+    background-color: #faf9f5;
+    color: #666;
+    padding-top: 120px;
+    padding-bottom: 120px;
+   display: flex;  justify-content: space-between;align-content: center;
+}
+footer a{
+    color: #666;
+}
+footer .container{
+
+}
+footer .container .item{
+    height: 100%;
+     justify-content: space-between;
+}
+footer .container .item1 .footer-logo{
+
+}
+footer .container .item1{
+    display: flex;
+    flex-direction: column;
+}
+footer .item1 img{width:100px;
+padding-top: 20px;
+}
+footer .item1 p{
+    position: absolute; top: 60%; left: 8%;
+}
+footer .item2 .wrap{
+  display: flex;
+}
+footer .item2{
+    padding-top: 40px;
+}
+footer .item3{
+    padding-top: 40px;
+}
